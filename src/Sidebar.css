@@ -1,0 +1,22 @@
+.sidebar{
+  width: 20%;
+  float: left;
+  padding: 20px 0 20px 10px;
+}
+.menu{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menu li{
+  padding: 0 0 5px;
+  margin: 0;
+}
+.menu a{
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  display: inline-block;
+  padding: 5px 0;
+}
