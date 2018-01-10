@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.jpg';
+import Header from './Header';
 import Menu from './Sidebar';
 import Main from './Main';
 import News from './News';
@@ -24,12 +24,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <div className="container">
-            <img src={logo} className="App-logo" alt="logo" />
-            <h1 className="App-title">SiteName</h1>
-          </div>
-        </header>
+        <Header />
         <div className="content">
           <div className="container clearfix">
             <main className="main">             
@@ -41,7 +36,7 @@ class App extends Component {
             </aside>            
           </div>
         </div>
-        <footer>
+        <footer className="footer">
           <div className="container">
              <p>&copy; Сopyright</p>
           </div>

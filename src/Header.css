@@ -1,0 +1,22 @@
+.logo {
+  width: 80px;
+  height: auto;
+  float: left;
+  margin-right: 20px;
+}
+
+.header {
+  background-color: #fff; 
+  padding: 20px;
+  color: #444;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 1.5em;
+  margin: 0;
+  padding: 25px 0 0;
+  font-size: 30px;
+  font-weight: normal;
+}
+
